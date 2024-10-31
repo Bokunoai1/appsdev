@@ -3,32 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Selamat Datang</title>
-  <!-- Bootstrap CSS CDN -->
+  <title>Embed AppSheet</title>
+  <!-- Bootstrap CSS CDN (optional for styling) -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Logo</a>
-  </nav>
-
-  <!-- Welcome Section -->
-  <div class="container text-center mt-5">
-    <h1 class="display-4">Selamat Datang!</h1>
-    <p class="lead">Ini adalah halaman selamat datang yang sederhana menggunakan Bootstrap.</p>
-    <a href="#" class="btn btn-primary mt-3">Mulai</a>
+  <!-- Container -->
+  <div class="container mt-5">
+    <h1 class="text-center">Aplikasi AppSheet</h1>
+    <p class="text-center">Berikut adalah aplikasi AppSheet yang di-embed dalam halaman ini:</p>
+    
+    <!-- Embedded AppSheet Application -->
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe class="embed-responsive-item" src="https://www.appsheet.com/start/bed7b241-7c53-4ba6-a441-7c59f99922c7" frameborder="0" allowfullscreen></iframe>
+    </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="footer mt-auto py-3 bg-light text-center">
-    <div class="container">
-      <span class="text-muted">&copy; 2024 Website Anda. All rights reserved.</span>
-    </div>
-  </footer>
-
-  <!-- Bootstrap JS and dependencies -->
+  <!-- Optional Bootstrap JS and dependencies -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
